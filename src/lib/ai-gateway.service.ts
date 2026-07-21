@@ -1,7 +1,6 @@
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 
-const GATEWAY_BASE_URL = "https://ai.gateway.lovable.dev/v1";
-
+const GATEWAY_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai";
 /**
  * Creates an AI SDK provider pointed at the Lovable AI Gateway.
  * The global LOVABLE_API_KEY powers the whole app — individual users never
